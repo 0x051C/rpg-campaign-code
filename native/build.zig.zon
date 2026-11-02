@@ -1,0 +1,10 @@
+.{
+    .name = .units,
+    .fingerprint = 0xe9b07449eeff3763,
+    .version = "0.1.0",
+    .dependencies = .{
+        // gdzig, cloned next to the project (github.com/gdzig/gdzig, commit c05f491).
+        .gdzig = .{ .path = "../../gdzig" },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
+}

@@ -1,0 +1,27 @@
+# Godot
+.godot/
+/android/
+
+# Test output
+tests/output/
+
+# Zig build caches and the built library
+native/.zig-cache/
+native/zig-out/
+native/zig-pkg/
+bin/
+
+# Everything that isn't code lives outside this repository
+*.glb
+*.gltf
+*.png
+*.jpg
+*.ogg
+*.wav
+*.import
+*.tscn
+*.tres
+*.res
+
+# Screenshots for the README
+!docs/screenshots/*.jpg
